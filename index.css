@@ -1,0 +1,689 @@
+/* for main institute heading */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Satisfy&display=swap');
+/* for about us and director message */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+/* SECTION1: IMAGES NITKKR------------------------------------------------STARTS */
+.imgleft{
+    background: rgba(0,0,0,0.3) url('images/imgL1.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* height:95vh; */
+    /* background-blend-mode: darken; */
+
+    /*For changing the images i am using animation not corousel because courousal has images which is present in a div but here image is used as background of div not 'inside' the div.  */
+    animation-name: anime1;
+    animation-duration: 45s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;   /*without this snimations donot work.*/
+}
+@keyframes anime1 {
+    0%{
+        background: rgba(0,0,0,0.3) url('images/imgL1.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    10%{
+        background: rgba(0,0,0,0.3) url('images/imgL2.jpeg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    20%{
+        background: rgba(0,0,0,0.3) url('images/imgL3.jpeg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    30%{
+        background: rgba(0,0,0,0.3) url('images/imgL4.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    40%{
+        background: rgba(0,0,0,0.3) url('images/imgL5.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    50%{
+        background: rgba(0,0,0,0.3) url('images/imgL6.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    60%{
+        background: rgba(0,0,0,0.3) url('images/imgL7.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    70%{
+        background: rgba(0,0,0,0.3) url('images/imgL8.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    80%{
+        background: rgba(0,0,0,0.3) url('images/imgL9.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    90%{
+        background: rgba(0,0,0,0.3) url('images/imgL10.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+
+}
+.imgright1{
+    background: rgba(0,0,0,0.3) url('images/imgR1.png');
+    background-size: cover;
+    /* background-blend-mode: darken; */
+
+    /*For changing the images i am using animation not corousel because courousal has images which is present in a div but here image is used as background of div not 'inside' the div.  */
+    animation-name: anime2;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;   /*without this snimations donot work.*/
+}
+@keyframes anime2{
+    0%{
+        background: rgba(0,0,0,0.3) url('images/imgR1.png');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    33%{
+        background: rgba(0,0,0,0.3) url('images/imgR2.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    67%{
+        background: rgba(0,0,0,0.3) url('images/imgR3.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+}
+.imgright2{
+    background: rgba(0,0,0,0.3) url('images/imgL4.jpg');
+    background-size: cover;
+    /* background-blend-mode: darken; */
+
+    /*For changing the images i am using animation not corousel because courousal has images which is present in a div but here image is used as background of div not 'inside' the div.  */
+    animation-name: anime3;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;   /*without this snimations donot work.*/
+}
+@keyframes anime3{
+    0%{
+        background: rgba(0,0,0,0.3) url('images/imgR4.jpeg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    33%{
+        background: rgba(0,0,0,0.3) url('images/imgR5.jpeg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+    67%{
+        background: rgba(0,0,0,0.3) url('images/imgR6.jpg');
+        background-size: cover;
+        /* background-blend-mode: darken; */
+    }
+}
+.imgsection1{
+    /* border:2px solid yellow; */
+    margin-top: 0px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width:100%;
+    height:77vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f7;
+}
+.imgleft{
+    /* border: 2px solid green; */
+    width:72%;
+    margin:8px;
+    display: flex;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+    /* height:100%; */
+}
+.imgright{
+    /* border: 2px solid red; */
+    width:28%;
+    display:flex;
+    flex-direction: column;
+    /* height:100%; */
+}
+.imgright1{
+    /* border: 2px solid blue; */
+    /* width:28%; */
+    height:50%;
+    margin:5px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+.imgright2{
+    /* border: 2px solid green; */
+    /* width:28%; */
+    height:50%;
+    margin:5px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+/*HEADER :  INSTITUTE NAME AND LOCATION */
+.intro{
+    /* border:2px solid yellow; */
+    display: flex;
+    background: rgba(0,0,0,0.2) url('images/introbackground.jpg');
+    background-size: cover; 
+    background-blend-mode:darken;
+    border-bottom: 1px solid white;
+}
+.lefthalf{
+    /* border: 1px solid red; */
+    width: 65%;
+    display: flex;
+    /* justify-content: center; */
+    /* padding:0px 4px; */
+    align-items: center;
+    /* height:100%; */
+}
+.logo{
+    /* border:2px solid black; */
+    border-radius: 15px;
+}
+.institutename{
+    padding:0px 10px;
+    color: whitesmoke;
+}
+.institutename p{
+    font-family: 'Lobster', cursive;
+    /* font-weight: bold; */
+    font-size:5vh;
+}
+.institutename h2{
+    font-family: 'Lobster', cursive;
+    font-size: 4vh;
+    /* font-weight: bold; */
+}
+.righthalf{
+    padding:0px 7px;
+    /* border: 1px solid green; */
+    width: 35%;
+    display: flex;
+    align-items:center;
+    justify-content: end;    
+}
+.locationaddr{
+    padding-right: 10px;
+    text-align: right;
+    color: lime;
+}
+.locationaddr p{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+.locationlogo img{
+    border-radius: 30px;
+}
+/* NAVIGATION BAR */
+.navbar{
+    /* /* border: 1px solid red;  */
+    display: flex;
+    background: rgba(0,0,0,0.1) url('images/navbackground.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+    color: white;
+}
+.leftnav li{
+    padding:1px 18px;
+    list-style: none;
+}
+.leftnav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding:6px 9px;
+
+} 
+.leftnav li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding:6px 9px;
+    border-radius: 22px;
+    border-color: 3px solid lime;
+}
+.leftnav{
+    /* border: 1px solid red; */
+    display: flex;
+    width:100%;
+    justify-content: center;
+    padding:0px 5px;
+    align-items: center;
+    /* height:100%; */
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+}
+.searchbtn{
+    background-color: #3a3a3b;
+    cursor: pointer;
+}
+.searchbtn:hover{
+    border:2px solid white;
+    border-radius: 10px;
+}
+/* SOCIAL HANDLES */
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c21717;
+}
+.sociallogo{
+    padding: 0px 12px;
+}
+.sociallogo img{
+    height: 25px;
+    width: 25px;
+}
+/* SECTION 2 : ABOUT NITKKR and DIRECTOR */
+.section2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    height:43vh;
+    padding: 15px 7px;
+    background:linear-gradient(rgb(185, 221, 249),white);
+}
+.section2{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section2 p{
+    text-align: center;
+    color: #c21717;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.about{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 30px;
+    margin:10px 20px;
+    /* height:40vh; */
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+.director{
+    /* border: 2px solid green; */
+    width: 50%;
+    background-color: #f5f5f7;
+    padding:10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 20px;
+    /* height:40vh; */
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+.aboutimg{
+    /* border: 2px solid black; */
+    width:30%;
+    /* padding-top:20px; */
+}
+.aboutimg img{
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+   max-width: 100%;
+   max-height: 100%;
+}
+.abouttext{
+    max-height: 90%;;
+    /* border: 2px solid black; */
+    width:70%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding:8px 16px;
+    /* height: 45vh; */
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+.directorimg{
+    /* border: 2px solid black; */
+    width:30%;
+}
+.directorimg img{
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+   max-width: 100%;
+   max-height: 100%;
+}
+.directortext{
+    max-height: 90%;
+    /* border: 2px solid black; */
+    width:70%;
+    padding:8px 16px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+    /* height: 45vh; */
+}
+/* HAMBURGER */
+.line{
+    width:25px;
+    background-color: white;
+    height: 2px;
+    margin:4px;
+}
+.burger{
+    position: absolute;
+    top:7px;
+    right:7px;
+    display: none;  /*earlier (on big screen) hamburger exist but not visible.*/
+}
+/* ANNOUNCEMENTS */
+.announce{
+    background:linear-gradient(  rgb(249, 215, 220), white);
+    display: flex;
+    flex-direction: column;
+}
+.announce1{
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.announce2{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:40vh;
+    margin-bottom: 12px;
+}
+.boxes{
+    width:27%;
+    margin:4px 15px;
+    padding:4px 5px;
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+}
+.boxes h3{
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 25%);
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.boxes p{
+    margin:10px 5px;
+    padding:3px;
+}
+.boxes a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(80, 80, 244);
+}
+.box2{
+    overflow-y: scroll;
+    max-height: 90%;
+}
+.box2 p{
+    /* border: 0.5px solid grey; */
+    margin:0px;
+    padding:4px 5px;
+}
+.news_img_text{
+    max-height:95%;
+}
+.news_img_text p{
+    text-align: center;
+}
+.news_img_text img{
+    width:60%;
+    display: block;
+    margin: 5px auto;
+    border-radius: 18px;
+}
+ /* CENTRES AT THE NITKKR section  */
+ #nitkkrcentres{
+    display: flex;
+    flex-direction: column;
+    /* width:100%; */
+    border: 2px solid red;
+}
+#centresheading{
+    border: 2px solid yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5vh;
+    padding:4px;
+}
+#centreboxes{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    justify-content: center;
+    margin: auto;
+}
+.centre_box{
+    border: 2px solid blue;
+     display: flex;
+     flex-direction: column;    
+     width:22%;
+     height:44vh;
+     margin:5px 5px;
+     justify-content: center;
+     align-items: center;
+ }
+.centre_box_text{
+   border: 2px solid orange;
+   height:50%;
+   width:90%;
+   overflow-y: scroll;
+   overflow-x:hidden;
+   padding:2px 4px;
+}
+.centre_box_text h4{
+  text-align: center;
+}
+.centre_box_text p{
+  font-size: 1.9vh;
+}
+.centre_box_img{
+    border: 2px solid rgb(74, 71, 67);
+    /* height:60%; */
+    width:90%; 
+ }
+ .centre_box_img img{
+    width: 90%;
+    display: block;
+    margin: auto;
+ }
+
+/* FOR RESPOVSIVENESS  */
+@media only screen and (max-width: 1040px){
+    .intro{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 1s ease-out;
+        height: 55vh; /*Above 'transition' will only work if some height is given to navbar'div' so its height whenever changes it will change smoothly.*/
+    }
+    .lefthalf{
+        width:100%;
+        flex-direction: column;
+    }
+    .institutename{
+        text-align: center;
+    }
+    .institutename p{
+        font-size: 4vh;
+    }
+    .institutename h2{
+        font-size: 3vh;
+    }
+    .righthalf{
+        justify-content: center;
+        text-align: center;
+    }
+    .righthalf{
+        width:100%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding:0px 0px;
+    }
+    .locationaddr p{
+        text-align: center;
+    }
+    .logo img{
+        height:54px;
+        width:54px;
+    }
+    .locationlogo img{
+        height:40px;
+        width:40px;
+    }
+    .leftnav{
+        flex-direction: column;
+        padding: 2px 0px;
+    }
+    .leftnav li{
+        margin-top: 4px;
+        padding: 4px 0px;
+    }
+    .leftnav li a{
+        padding: 2px 0px;
+    }
+    .searchbtn{
+        margin-top: 4px;
+    }
+   
+    /*now make hamburger visible.*/
+    .burger{
+        display: block; 
+    }
+    /* IMP */
+     .dec-height-resp{
+        height: 7px;
+    }
+    .hide-this-resp{
+        opacity: 0;
+    }
+    /*About Us and Director message*/
+    .section2{
+        font-size: small;
+    }
+    .section2 p{
+        font-size: 4vh;
+    }
+    /* ANNOUNCEMENT SECTION */
+    .announce2{
+        flex-direction: column;
+        height:auto;
+    }
+    .boxes{
+        width:80%;
+        margin: 4px auto;
+    }
+    .boxes h3{
+        font-size: 1.2rem;
+    }
+    .boxes a{
+        font-size: 0.9rem;
+    }
+    .box2{
+        overflow-y: scroll;
+        height:40vh;
+    
+    }
+    .marquee{
+        height: 40vh;
+    }
+    .news_img_text img{
+        height: 30vh;
+    }
+
+}
+@media only screen and (max-width: 670px){
+    .imgsection1{
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgleft{
+        margin-top:4px;
+        width:95%;
+        height:40vh;
+    }
+    .imgright{
+        margin:0px;
+        justify-content: center;
+        width:95%;
+        /* height:auto; */
+    }
+    .imgright1{
+        height: 35vh;
+    }
+    .imgright2{
+        height: 35vh;
+    }
+    /*About us and director message*/
+    .section2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .about{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        max-height: 45vh;
+        width:81%;
+        padding:9px 10px;
+    }
+    .director{
+        flex-direction: column;
+        max-height: 55vh;
+        width:81%;
+        margin-left: auto;
+        margin-right: auto;
+        padding:9px 10px;
+    }
+    .section2{
+        font-size: 10px;
+    }
+    .section2 p{
+        font-size: 3vh;
+    }
+    .boxes h3{
+        font-size: 1.1rem;
+    }
+    .boxes a{
+        font-size: 0.8rem;
+    }
+}
+
+/* NAVIGATION BAR ENDS ------------------------------------------------------------------------------------------ */
