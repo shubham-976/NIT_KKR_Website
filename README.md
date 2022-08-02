@@ -8,8 +8,7 @@ Its a frontend static website design for our institute NIT, Kurukshetra.
 ![Screenshot (163)](https://user-images.githubusercontent.com/97439744/178132780-c20c5759-ec50-43b9-9db5-1cff0f85e67c.png)
 ![Screenshot (165)](https://user-images.githubusercontent.com/97439744/178132781-33cbea51-d97c-472b-9232-07cd78c5d2c4.png)
 ![Screenshot (190)](https://user-images.githubusercontent.com/97439744/182348808-09600969-845b-4725-bf59-eaf78412c053.png)
-![Screenshot (192)](https://user-images.githubusercontent.com/97439744/182349136-090778ea-c3a5-472e-8bbc-0a6a8002a4d3.png)
-
+![Screenshot (192)](https://user-images.githubusercontent.com/97439744/182349581-8e70b876-e218-4392-b796-5fe079af3feb.png)
 ---------For Responsiveness : How it looks on Mobile Phones -----------
 
 ![Screenshot (175)__](https://user-images.githubusercontent.com/97439744/178133147-cd77084c-a94f-4f97-99cf-b1a9260c6308.png)
