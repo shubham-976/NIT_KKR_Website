@@ -4,7 +4,7 @@ Its a frontend static website design for our institute NIT, Kurukshetra.
 (This project is currently under development, more updates will be coming soon)
 
 ---------Demo of the website--------
-![Screenshot (162)](https://user-images.githubusercontent.com/97439744/178132778-5b0d0a23-2abe-4ecc-9317-9b4f8649f905.png)
+![Screenshot (187)](https://user-images.githubusercontent.com/97439744/182348245-d542b18a-6a9e-4ffa-8cca-8fad4edc5740.png)
 ![Screenshot (163)](https://user-images.githubusercontent.com/97439744/178132780-c20c5759-ec50-43b9-9db5-1cff0f85e67c.png)
 ![Screenshot (165)](https://user-images.githubusercontent.com/97439744/178132781-33cbea51-d97c-472b-9232-07cd78c5d2c4.png)
 ![Screenshot (166)](https://user-images.githubusercontent.com/97439744/178132782-4d56bbfb-1bcd-4d57-930b-d735b034a54f.png)
